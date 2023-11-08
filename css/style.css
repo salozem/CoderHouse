@@ -1,0 +1,20 @@
+/*!---------Header----------!*/
+header{
+    background-color: black;
+}
+
+header h1{
+    font-size: 65px;
+    font-family: 'Nue Gothic', sans-serif;
+    color: white;
+}
+
+header nav ul{
+    list-style: none;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    font-family: 'Nue Gothic', sans-serif;
+    color: white;
+}
