@@ -1,3 +1,11 @@
+/*!--------RESET-----------!*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nue Gothic', sans-serif;;
+}
+
 /*!---------Header----------!*/
 header{
     background-color: black;
@@ -5,8 +13,8 @@ header{
 
 header h1{
     font-size: 65px;
-    font-family: 'Nue Gothic', sans-serif;
     color: white;
+    padding: 10px;
 }
 
 header nav ul{
@@ -15,6 +23,5 @@ header nav ul{
 
 header nav ul li a{
     text-decoration: none;
-    font-family: 'Nue Gothic', sans-serif;
     color: white;
 }
