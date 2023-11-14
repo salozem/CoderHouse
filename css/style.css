@@ -73,6 +73,16 @@ header nav ul li a{
     padding: 10px 15px;
     font-size: 25px;
 }
+/*!---------PRODUCTS SECTION----------*/
+.products{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.products h2{
+    text-align: center;
+    size: 45px;
+}
 
 /*!---------FOOTER----------*/
 footer{
