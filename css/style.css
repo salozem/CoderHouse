@@ -73,6 +73,7 @@ header nav ul li a{
     padding: 10px 15px;
     font-size: 25px;
 }
+
 /*!---------PRODUCTS SECTION----------*/
 .products{
     margin-top: 10px;
@@ -82,6 +83,17 @@ header nav ul li a{
 .products h2{
     text-align: center;
     font-size: 45px;
+}
+
+/*!---------INSTAGRAM SECTION----------*/
+.instagram h2{
+    font-size: 45px;
+    text-align: center;
+}
+
+.instagram h2 a{
+    text-decoration: none;
+    color: black;
 }
 
 /*!---------FOOTER----------*/
