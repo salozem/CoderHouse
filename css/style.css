@@ -1,4 +1,4 @@
-/*!-------FONTS-----*/
+/*!---------FONTS----------*/
 @import url('https://fonts.cdnfonts.com/css/nue-gothic');
 
 /*!----------RESET-----------*/
@@ -72,5 +72,31 @@ header nav ul li a{
     color: white;
     padding: 10px 15px;
     font-size: 25px;
-    
+}
+
+/*!---------FOOTER----------*/
+footer{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer div{
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer i{
+    font-size: 32px;
+    justify-content: space-evenly;
+    padding: 8px;
+}
+
+footer div p{
+    color: white;
+}
+
+footer img{
+    width: 8%;
 }
