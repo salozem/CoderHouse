@@ -122,3 +122,14 @@ footer div p{
 footer img{
     width: 8%;
 }
+
+/*!---------PRODUCTS PAGE----------*/
+.products-page{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.products-page h2{
+    text-align: center;
+    font-size: 45px;
+}
