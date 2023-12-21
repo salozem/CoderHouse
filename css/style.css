@@ -13,34 +13,11 @@
 header{
     background-color: black;
 }
-
-header nav{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-header h1{
-    font-size: 65px;
-    color: white;
-    padding-left: 10px;
-    padding-top: 10px;
-}
-
-header nav ul{
-    list-style: none;
-    display: flex;
-    padding: 10px;
-}
-
-header nav ul li{
-    justify-content: space-evenly;
-    padding-right: 8px;
+nav{
+    background-color: black;
 }
 
 header nav ul li a{
-    text-decoration: none;
-    color: white;
     font-size: 25px;
 }
 
