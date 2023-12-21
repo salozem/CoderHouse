@@ -1,0 +1,21 @@
+footer {
+	background-color: black;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	div {
+		justify-content: space-between;
+		align-items: center;
+		p {
+			color: white;
+		}
+	}
+	i {
+		font-size: 32px;
+		justify-content: space-evenly;
+		padding: 8px;
+	}
+	img {
+		width: 8%;
+	}
+}
