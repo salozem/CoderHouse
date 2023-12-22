@@ -103,6 +103,88 @@ nav {
           font-weight: 700;
           color: #007200; }
 
+#delivery {
+  width: 100%;
+  padding: 1em;
+  margin: 35px auto; }
+  #delivery .title-container {
+    width: 100%; }
+  #delivery .soon {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    padding-top: 4em;
+    margin-bottom: 3em; }
+    #delivery .soon h1 {
+      margin-bottom: 1em;
+      text-align: center;
+      font-size: 2rem; }
+    #delivery .soon img {
+      width: 25%;
+      border-radius: 1em; }
+  #delivery .now {
+    width: 100%; }
+    #delivery .now p {
+      text-align: center;
+      font-size: 1.28rem;
+      color: #111111; }
+    #delivery .now__phones a {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: .7em 1em;
+      text-decoration: none;
+      background-color: black;
+      color: #f1f1f1;
+      border-radius: 1em;
+      font-size: 0.8rem; }
+      #delivery .now__phones a img {
+        width: 2.5em;
+        height: 2.5em; }
+    #delivery .now__phones p {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: .7em 1em;
+      margin: 1em 0;
+      font-size: 0.8rem;
+      font-weight: 600;
+      background-color: #f1f1f1;
+      color: #000;
+      border-radius: 1em; }
+      #delivery .now__phones p img {
+        width: 2.2em;
+        height: 2.2em; }
+  #delivery .business-hours {
+    width: 100%;
+    margin: 2em 0;
+    padding: .5em;
+    background: rgba(0, 0, 0, 0.1);
+    border-radius: 1em;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center; }
+    #delivery .business-hours__title {
+      width: 90%;
+      display: flex;
+      place-items: center;
+      justify-content: center;
+      border-bottom: 1px solid rgba(0, 0, 0, 0.3); }
+      #delivery .business-hours__title img {
+        width: 2em;
+        height: 2em;
+        margin-bottom: .5em;
+        padding-right: 5px; }
+      #delivery .business-hours__title h2 {
+        font-size: 1.2rem;
+        align-items: center; }
+    #delivery .business-hours p {
+      margin: 1em 0;
+      text-align: center; }
+      #delivery .business-hours p:last-of-type {
+        margin: 0; }
+
 #contacto .form-container {
   display: flex;
   flex-flow: column nowrap;
