@@ -56,6 +56,53 @@ nav {
   .instagram img {
     width: 80%; }
 
+#carta {
+  width: 100%;
+  margin: 35px auto;
+  padding: 1em; }
+  #carta .carta-info {
+    width: 100%;
+    padding-top: 4em;
+    margin-bottom: 2em;
+    text-align: center; }
+    #carta .carta-info h1 {
+      font-size: 4rem;
+      margin-bottom: .2em; }
+  #carta h2 {
+    margin-bottom: 1em;
+    text-align: center;
+    font-size: 2rem;
+    color: black; }
+  #carta .foods {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    width: 80%;
+    margin: 0 auto; }
+    #carta .foods__img {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 3em;
+      background: #fff;
+      box-shadow: 0px 8px 24px 5px rgba(0, 0, 0, 0.45); }
+      #carta .foods__img img {
+        width: 50%; }
+      #carta .foods__img .foods__info {
+        width: 50%; }
+        #carta .foods__img .foods__info p {
+          margin-bottom: .5em;
+          padding: 0 .1em;
+          font-size: 0.96rem;
+          font-weight: 500;
+          text-align: center;
+          line-height: 1.1em; }
+        #carta .foods__img .foods__info .price {
+          margin: none;
+          padding: none;
+          font-weight: 700;
+          color: #007200; }
+
 #contacto .form-container {
   display: flex;
   flex-flow: column nowrap;
