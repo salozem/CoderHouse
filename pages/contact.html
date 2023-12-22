@@ -37,9 +37,31 @@
             </div>
         </nav>
     </header>
-    <main>
-        <p>Contactos</p>
+
+    <main id="contacto">
+        <div class="form-container">
+            <section class="form-container__title">
+                <h1>Contactate con DNO</h1>
+                <p>¿Alguna duda, sugerencia, inconveniente, etc.? Dejános tu mensaje!</p>
+            </section>
+            <form class="form-container__form">
+                <input type="text" name="name" id="name" placeholder="Escribe tu nombre" required>
+
+                <input type="mail" name="mail" id="mail" placeholder="Escribe tu correo electrónico" required>
+
+                <select name="motivo" id="motivo" required>
+                    <option value="select" disabled>Seleccionar Motivo</option>
+                    <option value="duda">Duda</option>
+                    <option value="sugerencia">Sugerencia</option>
+                    <option value="reseña">Reseña</option>
+                    <option value="problema-inconveniente">Problema/Inconveniente</option>
+                </select>
+                <textarea name="textarea" id="textarea" placeholder="Dejános tu mensaje!" required></textarea>
+                <input type="submit" value="Enviar">
+            </form>
+        </div>
     </main>
+
     <footer>
         <img src="/img/logo.jpeg" alt="">
         <div>
