@@ -53,8 +53,10 @@ nav {
     .instagram h2 a {
       text-decoration: none;
       color: black; }
+  .instagram .container {
+    padding: 5px; }
   .instagram img {
-    width: 80%; }
+    width: 100%; }
 
 #carta {
   width: 100%;

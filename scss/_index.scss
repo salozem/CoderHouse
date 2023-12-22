@@ -28,6 +28,11 @@
 /*!---------INSTAGRAM----------*/
 
 .instagram {
+	display: flex;
+    flex-flow: column;
+    justify-content: center;
+    width: 100%;
+    margin: 0 auto;
     h2 {
        font-size: 45px;
        text-align: center;
@@ -37,14 +42,12 @@
          color: black;
        }
     }
-   
-    display: flex;
-    flex-flow: column;
-    justify-content: center;
-    width: 100%;
-    margin: 0 auto;
-   
+
+    .container {
+		padding: 5px;
+	}
+
     img {
-       width: 80%;
+       width: 100%;
     }
-   }
+}
