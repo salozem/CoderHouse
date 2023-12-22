@@ -45,7 +45,7 @@ nav {
   display: flex;
   flex-flow: column;
   justify-content: center;
-  width: 80%;
+  width: 100%;
   margin: 0 auto; }
   .instagram h2 {
     font-size: 45px;
